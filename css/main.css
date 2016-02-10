@@ -11,6 +11,15 @@ html {
   text-align: center;
 }
 
+.beetle-types li a {
+display: inline-block;
+margin: 0;
+width: 100%;
+padding: 1em;
+background-color: #9a816d;
+border: 1px solid #795437;
+}
+
 *, *::before, *::after {
 	box-sizing: inherit;
 }
