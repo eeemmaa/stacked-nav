@@ -1,5 +1,14 @@
 html {
 	box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+  line-height: 1.5rem;
+}
+
+.beetle-types {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
 }
 
 *, *::before, *::after {
