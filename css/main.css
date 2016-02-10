@@ -1,7 +1,11 @@
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
   font-family: "Dosis", sans-serif;
   line-height: 1.5rem;
+  margin: 0;
 }
 
 .beetle-types {
@@ -12,27 +16,32 @@ html {
 }
 
 .beetle-types li a {
-display: inline-block;
-margin: 0;
-width: 100%;
-padding: 0.5em;
-background-color: #9a816d;
-border: 1.5px solid #795437;
-color: #fff;
-font-weight: 700;
-font-size: 1rem;
-text-decoration: none;
+  display: inline-block;
+  margin: 0;
+  width: 100%;
+  padding: 0.5em;
+  background-color: #9a816d;
+  border: 1.5px solid #795437;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
 }
 
-.beetle-types strong {
+.beetle-types a:hover {
+  background-color: #795437;
+}
+
+h1 strong {
   display: block;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
   font-weight: 700;
   font-size: 2rem;
   color: #572700;
+  text-align: center;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
