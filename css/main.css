@@ -18,6 +18,10 @@ width: 100%;
 padding: 0.5em;
 background-color: #9a816d;
 border: 1.5px solid #795437;
+color: #fff;
+font-weight: 700;
+font-size: 1rem;
+text-decoration: none;
 }
 
 .beetle-types strong {
