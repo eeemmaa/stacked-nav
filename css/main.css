@@ -15,9 +15,18 @@ html {
 display: inline-block;
 margin: 0;
 width: 100%;
-padding: 1em;
+padding: 0.5em;
 background-color: #9a816d;
-border: 1px solid #795437;
+border: 1.5px solid #795437;
+}
+
+.beetle-types strong {
+  display: block;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #572700;
 }
 
 *, *::before, *::after {
